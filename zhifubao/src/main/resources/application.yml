@@ -1,0 +1,11 @@
+server:
+  port: 7777
+  jsp-servlet:
+    init-parameters:
+      development: true
+  context-path: /zhifubao
+spring:
+  mvc:
+    view:
+      prefix: /
+      suffix: .jsp
